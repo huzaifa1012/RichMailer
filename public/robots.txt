@@ -1,3 +1,8 @@
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Specific bots (optional, can help for social previews)
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +15,5 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Sitemap location
+Sitemap: https://rich-mailer.vercel.app/sitemap.xml
