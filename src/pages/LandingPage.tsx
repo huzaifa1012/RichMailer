@@ -20,10 +20,16 @@ const LandingPage = () => {
             Send Emails with
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60"> Richness</span>
           </h1>
+          {/* Subtitle / Punchline using <p> + <strong> tags for keyword indexing */}
+          <div className="max-w-2xl mx-auto mb-8">
+            <p className="text-xl font-normal text-muted-foreground mb-4 max-w-2xl mx-auto leading-relaxed">
+              <strong>Free REST API</strong> for sending rich HTML emails via your own SMTP provider. Simple parameters with no backend infrastructure required.
+            </p>
+            <p className="mt-3 text-base font-medium text-foreground/90">
+              ⚡ <strong className="font-semibold text-primary">100% Free</strong> with <strong className="font-semibold text-primary">Unlimited Email Delivery</strong> & zero hidden limits.
+            </p>
+          </div>
 
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            RichMailer Portal is a production-ready email service platform. Use your custom SMTP provider and send unlimited emails through a simple, powerful API with rich HTML support.
-          </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Link to="/login">
